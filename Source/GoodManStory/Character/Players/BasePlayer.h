@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "../BaseCharacter.h"
+#include "GameFramework/Character.h"
 #include "BasePlayer.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class GOODMANSTORY_API ABasePlayer : public ABaseCharacter
+class GOODMANSTORY_API ABasePlayer : public ACharacter
 {
 	GENERATED_BODY()
 

@@ -7,22 +7,15 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
-#include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "TimerManager.h" // FTimerManager::SetTimer
-#include "GameFramework/CharacterMovementComponent.h" //UCharacterMovementComponent::SetMovementMode
 #include "Components/SkeletalMeshComponent.h" //USkeletalMeshComponent
-#include "Components/PrimitiveComponent.h" //OnComponentOverlap
-#include "Engine/EngineTypes.h" //FHitResult
-#include "Materials/Material.h"//SetMaterial, GetMaterial
-#include "Materials/MaterialInstanceDynamic.h" //SetVectorParameterValue, UMaterialInstanceDynamic
 
 /*Debug*/
 #include "Engine/GameEngine.h" //AddOnScreenDebugMessage
-#include "Containers/UnrealString.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AGladiatorUE4Character

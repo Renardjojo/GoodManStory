@@ -13,5 +13,7 @@ UCLASS()
 class GOODMANSTORY_API ABaseEnemy : public ABaseCharacter
 {
 	GENERATED_BODY()
+
+	ABaseEnemy() noexcept;
 	
 };
